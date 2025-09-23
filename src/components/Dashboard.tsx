@@ -144,20 +144,6 @@ export function Dashboard() {
             <span className="font-semibold text-lg">InventoryAI</span>
           </div>
           
-          <nav className="space-y-2">
-            <Button variant="secondary" className="w-full justify-start">
-              <Package className="h-4 w-4 mr-2" />
-              Dashboard
-            </Button>
-            <Button variant="ghost" className="w-full justify-start">
-              <TrendingUp className="h-4 w-4 mr-2" />
-              Analytics
-            </Button>
-            <Button variant="ghost" className="w-full justify-start">
-              <Bell className="h-4 w-4 mr-2" />
-              Alerts
-            </Button>
-          </nav>
         </div>
 
         {/* Main Content */}
